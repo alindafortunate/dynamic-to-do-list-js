@@ -11,3 +11,8 @@ const tipper = Object.create(vehicle)
 tipper.seats = 3
 
 console.log(tipper.wheels)
+
+// looping through objects.
+for (let i in vehicle) {
+    console.log(vehicle[i])
+}
